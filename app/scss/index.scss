@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #323264, #A54B5F);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    width: 1440px;
+    margin: 60px;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -64px;
+    margin-right: -500px;
+}
+
+.header-a {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+
+    transition: 0.5s ease;
+}
+
+.header-a:hover {
+    opacity: 0.5;
+}
+
+.header-span {
+    width: 33px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #F0145A;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: -500px;
+}
+
+.nav-a {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 16px;
+    margin-left: 15px;
+
+    transition: 0.5s ease;
+}
+
+.nav-a:hover {
+    border-bottom: 3px solid #fff;
+    font-weight: 700;
+}
+
+.img-symbol {
+    margin-left: 950px;
+    margin-top: -179px;
+}
+
+.main-price {
+    display: flex;
+    justify-content: center;
+}
+
+.main-cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 180px;
+}
+
+.main-title a {
+    display: block;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 38px;
+    color: #B3B3BA;
+    margin-bottom: 30px;
+
+    transition: 0.5s ease;
+}
+
+.main-title a:hover {
+    opacity: 0, 5;
+}
+
+.span {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #B3B3BA;
+    background: linear-gradient(45deg, #EF8080, #F0145A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-desc h2 {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+.main-desc p {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+}
